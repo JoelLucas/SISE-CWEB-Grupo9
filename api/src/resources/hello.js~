@@ -15,9 +15,9 @@ exports.getpatients = function handler(request, reply) {
 	reply(bl.getpatients())
 }
 
-//exports.getreports = function handler(request, reply) {
-//	reply(bl.getreports())
-//}
+exports.getreports = function handler(request, reply) {
+	reply(bl.getreports())
+}
 
 exports.getrequests = function handler(request, reply) {
 	reply(bl.getrequests())

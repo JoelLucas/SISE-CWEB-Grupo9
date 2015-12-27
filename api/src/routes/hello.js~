@@ -20,11 +20,11 @@ server.route({
 	handler: resources.hello.getpatients
 })
 
-//server.route({
-//	method: 'GET',
-//	path: '/getreports',
-//	handler: resources.hello.getreports
-//})
+server.route({
+	method: 'GET',
+	path: '/getreports',
+	handler: resources.hello.getreports
+})
 
 server.route({
 	method: 'GET',

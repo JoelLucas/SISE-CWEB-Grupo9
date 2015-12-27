@@ -36,9 +36,9 @@ exports.getrequests = function() {
 	return requests
 }
 
-//exports.getreports = function() {
-//	return reports
-//}
+exports.getreports = function() {
+	return reports
+}
 
 exports.getacts = function() {
 	return acts
